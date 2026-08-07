@@ -76,7 +76,7 @@ def version():
 
 @app.get("/work")
 def work():
-    """Fixed CPU work → wall-clock ms.  Under a tight cpu limit the SAME work
+    """Fixed CPU work → wall-clock ms.Under a tight cpu limit the SAME work
     takes proportionally longer. ?n = millions of iterations (default 5)."""
     n_million = int(request.args.get("n", "5"))
     iters = n_million * 1_000_000
