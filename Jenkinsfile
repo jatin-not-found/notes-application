@@ -227,6 +227,6 @@ pipeline {
 //
 // And the honest comparison with the Actions version:
 //   · Actions needed ONE credential (GITOPS_TOKEN); GITHUB_TOKEN covered the rest.
-//   · Jenkins needs TWO, because nothing is minted for you.
+//   · Jenkins needs TWO, because nothing is minted for you
 //   That difference IS the lecture
 // ───────────────────────────────────────────────────────────────────────────
